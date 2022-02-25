@@ -1,0 +1,95 @@
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<style>
+	table, th, td {border: 1px solid black;	border-collapse: collapse; empty-cells: hide;}
+	th, td {padding: 5px;}
+	td:empty {visibility: hidden;}
+	.tooltip { position: relative; <!--display: inline-block;--> border-bottom: 1px dotted black;}
+	.tooltip .tooltiptext { visibility: hidden; width: 1000px; background-color: #ffbb99; color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; position: absolute; z-index: 1; left: -1000px}
+	.tooltip:hover .tooltiptext { visibility: visible;}
+	a {text-decoration:none;font-size: 20px;}
+	</style>
+</head>
+<body bgcolor="#FFFFFF">
+
+<div class='container'>
+
+<h1>UT report</h1>
+
+	<h2>Legend:</h2>
+    <table>
+        <tr>
+            <td></td>
+			<td><b>ERROR</b></td>
+        </tr>
+        <tr>
+            <td><b>Integration Unit</b></td>
+			<td>Empty cell in BOM</td>
+        </tr>
+        <tr>
+            <td><b>Unit Test</b></td>
+            <td>Empty cell in BOM</td>
+        </tr>
+        <tr>
+            <td><b>SC</b></td>
+            <td>Empty cell in BOM</td>
+        </tr>
+		<tr>
+            <td><b>Coverage</b></td>
+            <td>Coverage not found in the reports</td>
+        </tr>
+    </table>
+<table border="0" cellpadding="2" style="font-family:Arial;font-size:10pt;color:#000000;">
+	<tr bgcolor="#CCD8EE">
+		<td bgcolor="#CCD8EE">
+			<strong></strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Software Asset Group</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Software component</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Software component Test</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Severity Criteria</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Subprogram</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Complexity</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Function Coverage</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Function Calls</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Statements</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Branches</strong>
+		</td>
+		<td bgcolor="#CCD8EE">
+			<strong>Pairs</strong>
+		</td>
+	</tr>
+	<[CONTENTS]>
+	<tr bgcolor="#FB9316" class='summary_row'>
+	<[FOOTER_LINES]>
+	</tr>
+</table>
+
+</div>
+
+</body>
+</html>
